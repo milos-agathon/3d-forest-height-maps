@@ -46,7 +46,7 @@ for (url in urls) {
 raster_files <-
     list.files(
         path = getwd(),
-        pattern = "ETH",
+        pattern = "GlobalCanopyHeight",
         full.names = T
     )
 
